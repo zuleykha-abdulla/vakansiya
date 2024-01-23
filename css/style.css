@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #f4f9fd;
+}
+.vakan {
+  gap: 10px;
+  max-width: 950px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.vakan p {
+  color: #040f0f;
+  text-align: left;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  /*column-gap: 19px;
+  row-gap: 8px;*/
+  padding: 10px 10px;
+}
+
+.card {
+  width: 460px;
+  height: 150px;
+  border-radius: 5px;
+  background: #fff;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.top-left {
+  height: 22px;
+  display: inline-flex;
+  padding: 3px 7px;
+  align-items: center;
+  gap: 5px;
+  background-color: #ecdbfc;
+}
+
+.top-info p {
+  color: #8843e1;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.middle {
+  width: 424px;
+}
+.middle p {
+  color: #040f0f;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-left: 15px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.bottom-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  gap: 10px;
+}
+
+.logo {
+  width: 13px;
+  height: 13px;
+  fill: #c7c7c7;
+}
+
+.bottom-info p {
+  color: #c7c7c7;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.bottom-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  gap: 10px;
+}
+
+.oclock {
+  width: 15px;
+  height: 15px;
+  color: rgb(199, 199, 199, 1);
+}
+
+.time p {
+  color: #c7c7c7;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 305px;
+  height: 48px;
+  padding: 16px 16px;
+  margin-top: 20px;
+  gap: 4px;
+  background: #8843e1;
+  color: #f8f0fb;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+}
